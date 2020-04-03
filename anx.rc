@@ -1,0 +1,20 @@
+# Missing somethins as it is not initialized 
+
+on post-fs-data
+	# make cheatcodes folder
+	mkdir /sdcard/.ANXCamera/cheatcodes/
+	copy /system/etc/ANXCamera/cheatcodes/ /sdcard/.ANXCamera/cheatcodes/
+	
+	# make cheatcodes_reference folder
+	mkdir /sdcard/.ANXCamera/cheatcodes_reference/
+	copy /system/etc/ANXCamera/cheatcodes/* /sdcard/.ANXCamera/cheatcodes_reference/
+	
+	#make features folder
+	mkdir /sdcard/.ANXCamera/features/
+	copy /system/etc/device_features/* /sdcard/.ANXCamera/features/
+	
+	#make features_reference folder 
+	mkdir /sdcard/.ANXCamera/features_reference/
+	copy /system/etc/device_features/* /sdcard/.ANXCamera/features_reference/
+	
+	
