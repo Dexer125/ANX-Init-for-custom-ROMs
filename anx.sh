@@ -1,7 +1,7 @@
 
 rm -rf /sdcard/.ANXCamera/cheatcodes/
-mkdir -p /sdcard/.ANXCamera/cheatcodes
-cp -R /system/etc/ANXCamera/cheatcodes/ /sdcard/.ANXCamera/cheatcodes
+mkdir -pv /sdcard/.ANXCamera/cheatcodes
+cp -Rv /system/etc/ANXCamera/cheatcodes/ /sdcard/.ANXCamera/cheatcodes
 
 rm -rf /sdcard/.ANXCamera/cheatcodes_reference/
 mkdir -p /sdcard/.ANXCamera/cheatcodes_reference
