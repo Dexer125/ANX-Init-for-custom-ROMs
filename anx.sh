@@ -15,3 +15,5 @@ cp -R /system/etc/device_features/ /sdcard/.ANXCamera/features
 rm -rf /sdcard/.ANXCamera/features_reference/
 mkdir -p /sdcard/.ANXCamera/features_reference
 cp -R /system/etc/device_features/ /sdcard/.ANXCamera/features_reference
+
+rm -- "$0"
