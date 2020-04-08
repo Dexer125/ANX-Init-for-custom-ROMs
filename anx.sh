@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/system/bin/sh
 
 rm -rf /sdcard/.ANXCamera/cheatcodes/
 mkdir -pv /sdcard/.ANXCamera/cheatcodes
