@@ -1,3 +1,4 @@
+#!/bin/sh
 
 rm -rf /sdcard/.ANXCamera/cheatcodes/
 mkdir -pv /sdcard/.ANXCamera/cheatcodes
@@ -17,3 +18,5 @@ mkdir -p /sdcard/.ANXCamera/features_reference
 cp -R /system/etc/device_features/ /sdcard/.ANXCamera/features_reference
 
 #rm -- "$0"
+
+exit 0 # Let other scripts run
