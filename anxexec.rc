@@ -1,4 +1,0 @@
-# Another try, now executing .sh script 
-
-on boot
-	exec /sdcard/anx.sh
