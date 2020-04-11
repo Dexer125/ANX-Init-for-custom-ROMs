@@ -1,4 +1,4 @@
-#!/vendor/bin/sh
+#!/system/bin/sh
 
 DIR="/sdcard/.ANXCamera/"
 
@@ -26,5 +26,7 @@ else
 	exit 0
 	
 fi
+
+#rm -- "$0"
 
 exit 0 # Let other scripts run
